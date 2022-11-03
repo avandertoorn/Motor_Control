@@ -15,3 +15,7 @@ The program begins by creating a lookup table to cut down on clock cycles to gen
  - LAUNCXL-F280049C
  - AS5047P-TS_EK_AB
  - DRV8300DRGE-EVM
+ 
+ ## Setup
+ 
+ ![Image](Images/PXL_20221103_015253439.jpg)
