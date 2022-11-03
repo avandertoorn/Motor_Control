@@ -4,7 +4,7 @@
 
 This project is a BLDC motor controller using Texas Instruments LAUNCXL-F280049C evaluation board.
 
-The program begins by creating a lookup table to cut down on clock cycles to generate a sinusoidal waveform.
+The program begins by creating a lookup table to cut down on clock cycles to generate a sinusoidal waveform.  It uses SPI to initialize the magnetic position sensor and then uses the quadrature ABI interface to keep track of rotor position.  ADC peripheral is used as a throttle to control PWM duty cycle.
 
 ## IDE
 
